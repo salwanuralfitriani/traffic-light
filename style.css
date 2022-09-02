@@ -1,34 +1,62 @@
+.bohlam{
+  background: #000;
+  padding: 40px 20px;
+  width: 80px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  gap: 40px;
+  border-radius: 10px;
+}
+
+
 .lampu {
-    display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(10, 1fr);
-    width: max-content;
-  }
-  .traffic {
-    background: #000;
-    padding: 40px 20px;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    gap: 40px;
-    border-radius: 10px;
-  }
-  .bulat {
-    border-radius: 50%;
-  }
-  .light {
-    height: 80px;
-    width: 80px;
-    background: #4e4d068a;
-  }
-  .light.on {
-    background: #91af0c;
-  }
-  .button {
-    height: 30px;
-    width: 30px;
-    background: #3d3d3d;
-    border: none;
-    cursor: pointer;
-  }
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(16, 1fr);
+  width: max-content;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.green {
+  height: 80px;
+  width: 80px;
+  background: rgb(14, 56, 3);
+}
+
+
+.green.on {
+  background: rgb(38, 206, 4);
+}
+
+
+.button {
+  height: 50px;
+  width: 50px;
+  background: rgb(204, 188, 188);
+  border: none;
+
+}
+.button:active {
+  background: rgb(204, 188, 188);
+} 
+.yellow {
+  height: 80px;
+  width: 80px;
+  background: rgb(171, 187, 32);
+}
+.yellow.on {
+  background: rgb(214, 247, 32);
+}
+.red {
+  height: 80px;
+  width: 80px;
+  background: rgb(124, 1, 1);
+}
+.red.on {
+  background: rgb(255, 0, 0);
+}
